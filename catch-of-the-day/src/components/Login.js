@@ -9,11 +9,11 @@ const Login = (props) => (
       {" "}
       Login with Github
     </button>
-    <button className="twitter" onClick={() => props.authenticate("twitter")}>
+    <button className="twitter" onClick={() => props.authenticate("Twitter")}>
       {" "}
       Login with Github
     </button>
-    <button className="facebook" onClick={() => props.authenticate("facebook")}>
+    <button className="facebook" onClick={() => props.authenticate("Facebook")}>
       {" "}
       Login with Github
     </button>
